@@ -1,0 +1,271 @@
+2019-04-08 10:03:40,040 DEBUG com.vtradex.ehub.plugins.io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+2019-04-08 10:03:40,040 DEBUG com.vtradex.ehub.plugins.io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+2019-04-08 10:03:40,040 DEBUG com.vtradex.ehub.plugins.io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+2019-04-08 10:03:40,040 DEBUG com.vtradex.ehub.plugins.io.netty.util.internal.PlatformDependent0 - direct buffer constructor: available
+2019-04-08 10:03:40,040 DEBUG com.vtradex.ehub.plugins.io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+2019-04-08 10:03:40,040 DEBUG com.vtradex.ehub.plugins.io.netty.util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): available
+2019-04-08 10:03:40,040 DEBUG com.vtradex.ehub.plugins.io.netty.util.internal.Cleaner0 - java.nio.ByteBuffer.cleaner(): available
+2019-04-08 10:03:40,040 DEBUG com.vtradex.ehub.plugins.io.netty.util.internal.PlatformDependent - Platform: Windows
+2019-04-08 10:03:40,040 DEBUG com.vtradex.ehub.plugins.io.netty.util.internal.PlatformDependent - Java version: 8
+2019-04-08 10:03:40,040 DEBUG com.vtradex.ehub.plugins.io.netty.util.internal.PlatformDependent - -Dio.netty.noUnsafe: false
+2019-04-08 10:03:40,040 DEBUG com.vtradex.ehub.plugins.io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
+2019-04-08 10:03:40,040 DEBUG com.vtradex.ehub.plugins.io.netty.util.internal.PlatformDependent - -Dio.netty.noJavassist: false
+2019-04-08 10:03:40,040 DEBUG com.vtradex.ehub.plugins.io.netty.util.internal.PlatformDependent - Javassist: unavailable
+2019-04-08 10:03:40,040 DEBUG com.vtradex.ehub.plugins.io.netty.util.internal.PlatformDependent - You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+2019-04-08 10:03:40,040 DEBUG com.vtradex.ehub.plugins.io.netty.util.internal.PlatformDependent - -Dio.netty.tmpdir: C:\Users\LIU08D~1\AppData\Local\Temp (java.io.tmpdir)
+2019-04-08 10:03:40,040 DEBUG com.vtradex.ehub.plugins.io.netty.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2019-04-08 10:03:40,040 DEBUG com.vtradex.ehub.plugins.io.netty.util.internal.PlatformDependent - com.vtradex.ehub.plugins.io.netty.maxDirectMemory: 3791650816 bytes
+2019-04-08 10:03:40,040 DEBUG com.vtradex.ehub.plugins.io.netty.util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+2019-04-08 10:03:41,041 INFO com.vtradex.ehub.plugins.io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@2353b3e6
+2019-04-08 10:03:41,041 INFO RocketmqClient - Created a new client Instance, InstanceIndex:0, ClientID:192.168.1.44@25004, ClientConfig:ClientConfig [namesrvAddr=null, clientIP=192.168.1.44, instanceName=25004, clientCallbackExecutorThreads=8, pollNameServerInterval=30000, heartbeatBrokerInterval=30000, persistConsumerOffsetInterval=5000, unitMode=false, unitName=null, vipChannelEnabled=true, useTLS=false, language=JAVA], ClientVersion:V4_3_2, SerializerType:JSON
+2019-04-08 10:03:41,041 INFO RocketmqClient - Created new MQClientInstance for clientId:[192.168.1.44@25004]
+2019-04-08 10:03:41,041 INFO RocketmqClient - name server address changed, old=null, new=47.98.216.158:9876
+2019-04-08 10:03:41,041 INFO RocketmqRemoting - name server address updated. NEW : [47.98.216.158:9876] , OLD: null
+2019-04-08 10:03:41,041 INFO RocketmqClient - PullMessageService service started
+2019-04-08 10:03:41,041 INFO RocketmqClient - RebalanceService service started
+2019-04-08 10:03:41,041 INFO RocketmqClient - the producer [CLIENT_INNER_PRODUCER] start OK. sendMessageWithVIPChannel=true
+2019-04-08 10:03:41,041 INFO RocketmqClient - the client factory [192.168.1.44@25004] start OK
+2019-04-08 10:03:41,041 INFO RocketmqClient - the adminExt [sdkClientLbsDefault_INVOKE_ADMIN_EXT] start OK
+2019-04-08 10:03:41,041 INFO RocketmqRemoting - new name server is chosen. OLD: null , NEW: 47.98.216.158:9876. namesrvIndex = 715
+2019-04-08 10:03:41,041 DEBUG com.vtradex.ehub.plugins.io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: unpooled
+2019-04-08 10:03:41,041 DEBUG com.vtradex.ehub.plugins.io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 65536
+2019-04-08 10:03:41,041 DEBUG com.vtradex.ehub.plugins.io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2019-04-08 10:03:41,041 INFO RocketmqRemoting - createChannel: begin to connect remote host[47.98.216.158:9876] asynchronously
+2019-04-08 10:03:41,041 INFO RocketmqRemoting - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 47.98.216.158:9876
+2019-04-08 10:03:41,041 INFO RocketmqRemoting - createChannel: connect remote host[47.98.216.158:9876] success, DefaultChannelPromise@32bae14c(success)
+2019-04-08 10:03:41,041 DEBUG com.vtradex.ehub.plugins.io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: com.vtradex.ehub.plugins.io.netty.util.ResourceLeakDetector@1c1452d
+2019-04-08 10:03:41,041 INFO RocketmqClient - the topic[TBW102] route info changed, old[null] ,new[TopicRouteData [orderTopicConf=null, queueDatas=[QueueData [brokerName=broker-a, readQueueNums=8, writeQueueNums=8, perm=7, topicSynFlag=0]], brokerDatas=[BrokerData [brokerName=broker-a, brokerAddrs={0=47.98.216.158:10911}]], filterServerTable={}]]
+2019-04-08 10:03:41,041 INFO RocketmqClient - updateTopicPublishInfo prev is not null, TopicPublishInfo [orderTopic=false, messageQueueList=[], sendWhichQueue=ThreadLocalIndex{threadLocalIndex=null}, haveTopicRouterInfo=false]
+2019-04-08 10:03:41,041 INFO RocketmqClient - topicRouteTable.put. Topic = TBW102, TopicRouteData[TopicRouteData [orderTopicConf=null, queueDatas=[QueueData [brokerName=broker-a, readQueueNums=8, writeQueueNums=8, perm=7, topicSynFlag=0]], brokerDatas=[BrokerData [brokerName=broker-a, brokerAddrs={0=47.98.216.158:10911}]], filterServerTable={}]]
+2019-04-08 10:03:41,041 INFO RocketmqClient - the producer [PID_sdkClientLbsDefault] start OK. sendMessageWithVIPChannel=true
+2019-04-08 10:03:41,041 INFO RocketmqRemoting - createChannel: begin to connect remote host[47.98.216.158:10911] asynchronously
+2019-04-08 10:03:41,041 INFO RocketmqRemoting - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 47.98.216.158:10911
+2019-04-08 10:03:41,041 INFO RocketmqRemoting - createChannel: connect remote host[47.98.216.158:10911] success, DefaultChannelPromise@4d1b0d2a(success)
+2019-04-08 10:03:41,041 INFO RocketmqClient - send heart beat to broker[broker-a 0 47.98.216.158:10911] success
+2019-04-08 10:03:41,041 INFO RocketmqClient - HeartbeatData [clientID=192.168.1.44@25004, producerDataSet=[ProducerData [groupName=PID_sdkClientLbsDefault], ProducerData [groupName=CLIENT_INNER_PRODUCER]], consumerDataSet=[]]
+2019-04-08 10:04:11,011 INFO RocketmqClient - updateTopicPublishInfo prev is not null, TopicPublishInfo [orderTopic=false, messageQueueList=[MessageQueue [topic=TBW102, brokerName=broker-a, queueId=0], MessageQueue [topic=TBW102, brokerName=broker-a, queueId=1], MessageQueue [topic=TBW102, brokerName=broker-a, queueId=2], MessageQueue [topic=TBW102, brokerName=broker-a, queueId=3], MessageQueue [topic=TBW102, brokerName=broker-a, queueId=4], MessageQueue [topic=TBW102, brokerName=broker-a, queueId=5], MessageQueue [topic=TBW102, brokerName=broker-a, queueId=6], MessageQueue [topic=TBW102, brokerName=broker-a, queueId=7]], sendWhichQueue=ThreadLocalIndex{threadLocalIndex=null}, haveTopicRouterInfo=true]
+2019-04-08 10:04:11,011 INFO RocketmqClient - updateTopicPublishInfo prev is not null, TopicPublishInfo [orderTopic=false, messageQueueList=[], sendWhichQueue=ThreadLocalIndex{threadLocalIndex=null}, haveTopicRouterInfo=false]
+2019-04-08 10:04:11,011 INFO RocketmqClient - topicRouteTable.put. Topic = TBW102, TopicRouteData[TopicRouteData [orderTopicConf=null, queueDatas=[QueueData [brokerName=broker-a, readQueueNums=8, writeQueueNums=8, perm=7, topicSynFlag=0]], brokerDatas=[BrokerData [brokerName=broker-a, brokerAddrs={0=47.98.216.158:10911}]], filterServerTable={}]]
+2019-04-08 10:20:54,054 DEBUG com.vtradex.ehub.plugins.io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+2019-04-08 10:20:54,054 DEBUG com.vtradex.ehub.plugins.io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+2019-04-08 10:20:54,054 DEBUG com.vtradex.ehub.plugins.io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+2019-04-08 10:20:54,054 DEBUG com.vtradex.ehub.plugins.io.netty.util.internal.PlatformDependent0 - direct buffer constructor: available
+2019-04-08 10:20:54,054 DEBUG com.vtradex.ehub.plugins.io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+2019-04-08 10:20:54,054 DEBUG com.vtradex.ehub.plugins.io.netty.util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): available
+2019-04-08 10:20:54,054 DEBUG com.vtradex.ehub.plugins.io.netty.util.internal.Cleaner0 - java.nio.ByteBuffer.cleaner(): available
+2019-04-08 10:20:54,054 DEBUG com.vtradex.ehub.plugins.io.netty.util.internal.PlatformDependent - Platform: Windows
+2019-04-08 10:20:54,054 DEBUG com.vtradex.ehub.plugins.io.netty.util.internal.PlatformDependent - Java version: 8
+2019-04-08 10:20:54,054 DEBUG com.vtradex.ehub.plugins.io.netty.util.internal.PlatformDependent - -Dio.netty.noUnsafe: false
+2019-04-08 10:20:54,054 DEBUG com.vtradex.ehub.plugins.io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
+2019-04-08 10:20:54,054 DEBUG com.vtradex.ehub.plugins.io.netty.util.internal.PlatformDependent - -Dio.netty.noJavassist: false
+2019-04-08 10:20:54,054 DEBUG com.vtradex.ehub.plugins.io.netty.util.internal.PlatformDependent - Javassist: unavailable
+2019-04-08 10:20:54,054 DEBUG com.vtradex.ehub.plugins.io.netty.util.internal.PlatformDependent - You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+2019-04-08 10:20:54,054 DEBUG com.vtradex.ehub.plugins.io.netty.util.internal.PlatformDependent - -Dio.netty.tmpdir: C:\Users\LIU08D~1\AppData\Local\Temp (java.io.tmpdir)
+2019-04-08 10:20:54,054 DEBUG com.vtradex.ehub.plugins.io.netty.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2019-04-08 10:20:54,054 DEBUG com.vtradex.ehub.plugins.io.netty.util.internal.PlatformDependent - com.vtradex.ehub.plugins.io.netty.maxDirectMemory: 3791650816 bytes
+2019-04-08 10:20:54,054 DEBUG com.vtradex.ehub.plugins.io.netty.util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+2019-04-08 10:20:54,054 INFO com.vtradex.ehub.plugins.io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@2353b3e6
+2019-04-08 10:20:55,055 INFO RocketmqClient - Created a new client Instance, InstanceIndex:0, ClientID:192.168.1.60@8532, ClientConfig:ClientConfig [namesrvAddr=null, clientIP=192.168.1.60, instanceName=8532, clientCallbackExecutorThreads=8, pollNameServerInterval=30000, heartbeatBrokerInterval=30000, persistConsumerOffsetInterval=5000, unitMode=false, unitName=null, vipChannelEnabled=true, useTLS=false, language=JAVA], ClientVersion:V4_3_2, SerializerType:JSON
+2019-04-08 10:20:55,055 INFO RocketmqClient - Created new MQClientInstance for clientId:[192.168.1.60@8532]
+2019-04-08 10:20:55,055 INFO RocketmqClient - name server address changed, old=null, new=47.98.216.158:9876
+2019-04-08 10:20:55,055 INFO RocketmqRemoting - name server address updated. NEW : [47.98.216.158:9876] , OLD: null
+2019-04-08 10:20:55,055 INFO RocketmqClient - PullMessageService service started
+2019-04-08 10:20:55,055 INFO RocketmqClient - RebalanceService service started
+2019-04-08 10:20:55,055 INFO RocketmqClient - the producer [CLIENT_INNER_PRODUCER] start OK. sendMessageWithVIPChannel=true
+2019-04-08 10:20:55,055 INFO RocketmqClient - the client factory [192.168.1.60@8532] start OK
+2019-04-08 10:20:55,055 INFO RocketmqClient - the adminExt [sdkClientLbsDefault_INVOKE_ADMIN_EXT] start OK
+2019-04-08 10:20:55,055 INFO RocketmqRemoting - new name server is chosen. OLD: null , NEW: 47.98.216.158:9876. namesrvIndex = 310
+2019-04-08 10:20:55,055 DEBUG com.vtradex.ehub.plugins.io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: unpooled
+2019-04-08 10:20:55,055 DEBUG com.vtradex.ehub.plugins.io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 65536
+2019-04-08 10:20:55,055 DEBUG com.vtradex.ehub.plugins.io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2019-04-08 10:20:55,055 INFO RocketmqRemoting - createChannel: begin to connect remote host[47.98.216.158:9876] asynchronously
+2019-04-08 10:20:55,055 INFO RocketmqRemoting - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 47.98.216.158:9876
+2019-04-08 10:20:55,055 INFO RocketmqRemoting - createChannel: connect remote host[47.98.216.158:9876] success, DefaultChannelPromise@71f05e51(success)
+2019-04-08 10:20:55,055 DEBUG com.vtradex.ehub.plugins.io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: com.vtradex.ehub.plugins.io.netty.util.ResourceLeakDetector@2480bd99
+2019-04-08 10:20:55,055 INFO RocketmqClient - the topic[TBW102] route info changed, old[null] ,new[TopicRouteData [orderTopicConf=null, queueDatas=[QueueData [brokerName=broker-a, readQueueNums=8, writeQueueNums=8, perm=7, topicSynFlag=0]], brokerDatas=[BrokerData [brokerName=broker-a, brokerAddrs={0=47.98.216.158:10911}]], filterServerTable={}]]
+2019-04-08 10:20:55,055 INFO RocketmqClient - updateTopicPublishInfo prev is not null, TopicPublishInfo [orderTopic=false, messageQueueList=[], sendWhichQueue=ThreadLocalIndex{threadLocalIndex=null}, haveTopicRouterInfo=false]
+2019-04-08 10:20:55,055 INFO RocketmqClient - topicRouteTable.put. Topic = TBW102, TopicRouteData[TopicRouteData [orderTopicConf=null, queueDatas=[QueueData [brokerName=broker-a, readQueueNums=8, writeQueueNums=8, perm=7, topicSynFlag=0]], brokerDatas=[BrokerData [brokerName=broker-a, brokerAddrs={0=47.98.216.158:10911}]], filterServerTable={}]]
+2019-04-08 10:20:55,055 INFO RocketmqClient - the producer [PID_sdkClientLbsDefault] start OK. sendMessageWithVIPChannel=true
+2019-04-08 10:20:55,055 INFO RocketmqRemoting - createChannel: begin to connect remote host[47.98.216.158:10911] asynchronously
+2019-04-08 10:20:55,055 INFO RocketmqRemoting - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 47.98.216.158:10911
+2019-04-08 10:20:55,055 INFO RocketmqRemoting - createChannel: connect remote host[47.98.216.158:10911] success, DefaultChannelPromise@4d1b0d2a(success)
+2019-04-08 10:20:55,055 INFO RocketmqClient - send heart beat to broker[broker-a 0 47.98.216.158:10911] success
+2019-04-08 10:20:55,055 INFO RocketmqClient - HeartbeatData [clientID=192.168.1.60@8532, producerDataSet=[ProducerData [groupName=PID_sdkClientLbsDefault], ProducerData [groupName=CLIENT_INNER_PRODUCER]], consumerDataSet=[]]
+2019-04-08 10:21:25,025 INFO RocketmqClient - updateTopicPublishInfo prev is not null, TopicPublishInfo [orderTopic=false, messageQueueList=[MessageQueue [topic=TBW102, brokerName=broker-a, queueId=0], MessageQueue [topic=TBW102, brokerName=broker-a, queueId=1], MessageQueue [topic=TBW102, brokerName=broker-a, queueId=2], MessageQueue [topic=TBW102, brokerName=broker-a, queueId=3], MessageQueue [topic=TBW102, brokerName=broker-a, queueId=4], MessageQueue [topic=TBW102, brokerName=broker-a, queueId=5], MessageQueue [topic=TBW102, brokerName=broker-a, queueId=6], MessageQueue [topic=TBW102, brokerName=broker-a, queueId=7]], sendWhichQueue=ThreadLocalIndex{threadLocalIndex=null}, haveTopicRouterInfo=true]
+2019-04-08 10:21:25,025 INFO RocketmqClient - updateTopicPublishInfo prev is not null, TopicPublishInfo [orderTopic=false, messageQueueList=[], sendWhichQueue=ThreadLocalIndex{threadLocalIndex=null}, haveTopicRouterInfo=false]
+2019-04-08 10:21:25,025 INFO RocketmqClient - topicRouteTable.put. Topic = TBW102, TopicRouteData[TopicRouteData [orderTopicConf=null, queueDatas=[QueueData [brokerName=broker-a, readQueueNums=8, writeQueueNums=8, perm=7, topicSynFlag=0]], brokerDatas=[BrokerData [brokerName=broker-a, brokerAddrs={0=47.98.216.158:10911}]], filterServerTable={}]]
+2019-04-08 10:30:26,026 INFO RocketmqClient - send heart beat to broker[broker-a 0 47.98.216.158:10911] success
+2019-04-08 10:30:26,026 INFO RocketmqClient - HeartbeatData [clientID=192.168.1.60@8532, producerDataSet=[ProducerData [groupName=PID_sdkClientLbsDefault], ProducerData [groupName=CLIENT_INNER_PRODUCER]], consumerDataSet=[]]
+2019-04-08 10:40:26,026 INFO RocketmqClient - send heart beat to broker[broker-a 0 47.98.216.158:10911] success
+2019-04-08 10:40:26,026 INFO RocketmqClient - HeartbeatData [clientID=192.168.1.60@8532, producerDataSet=[ProducerData [groupName=CLIENT_INNER_PRODUCER], ProducerData [groupName=PID_sdkClientLbsDefault]], consumerDataSet=[]]
+2019-04-08 11:02:51,051 DEBUG com.vtradex.ehub.plugins.io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+2019-04-08 11:02:51,051 DEBUG com.vtradex.ehub.plugins.io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+2019-04-08 11:02:51,051 DEBUG com.vtradex.ehub.plugins.io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+2019-04-08 11:02:51,051 DEBUG com.vtradex.ehub.plugins.io.netty.util.internal.PlatformDependent0 - direct buffer constructor: available
+2019-04-08 11:02:51,051 DEBUG com.vtradex.ehub.plugins.io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+2019-04-08 11:02:51,051 DEBUG com.vtradex.ehub.plugins.io.netty.util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): available
+2019-04-08 11:02:51,051 DEBUG com.vtradex.ehub.plugins.io.netty.util.internal.Cleaner0 - java.nio.ByteBuffer.cleaner(): available
+2019-04-08 11:02:51,051 DEBUG com.vtradex.ehub.plugins.io.netty.util.internal.PlatformDependent - Platform: Windows
+2019-04-08 11:02:51,051 DEBUG com.vtradex.ehub.plugins.io.netty.util.internal.PlatformDependent - Java version: 8
+2019-04-08 11:02:51,051 DEBUG com.vtradex.ehub.plugins.io.netty.util.internal.PlatformDependent - -Dio.netty.noUnsafe: false
+2019-04-08 11:02:51,051 DEBUG com.vtradex.ehub.plugins.io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
+2019-04-08 11:02:51,051 DEBUG com.vtradex.ehub.plugins.io.netty.util.internal.PlatformDependent - -Dio.netty.noJavassist: false
+2019-04-08 11:02:51,051 DEBUG com.vtradex.ehub.plugins.io.netty.util.internal.PlatformDependent - Javassist: unavailable
+2019-04-08 11:02:51,051 DEBUG com.vtradex.ehub.plugins.io.netty.util.internal.PlatformDependent - You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+2019-04-08 11:02:51,051 DEBUG com.vtradex.ehub.plugins.io.netty.util.internal.PlatformDependent - -Dio.netty.tmpdir: C:\Users\LIU08D~1\AppData\Local\Temp (java.io.tmpdir)
+2019-04-08 11:02:51,051 DEBUG com.vtradex.ehub.plugins.io.netty.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2019-04-08 11:02:51,051 DEBUG com.vtradex.ehub.plugins.io.netty.util.internal.PlatformDependent - com.vtradex.ehub.plugins.io.netty.maxDirectMemory: 3791650816 bytes
+2019-04-08 11:02:51,051 DEBUG com.vtradex.ehub.plugins.io.netty.util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+2019-04-08 11:02:52,052 INFO com.vtradex.ehub.plugins.io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@2353b3e6
+2019-04-08 11:02:52,052 INFO RocketmqClient - Created a new client Instance, InstanceIndex:0, ClientID:192.168.1.60@8196, ClientConfig:ClientConfig [namesrvAddr=null, clientIP=192.168.1.60, instanceName=8196, clientCallbackExecutorThreads=8, pollNameServerInterval=30000, heartbeatBrokerInterval=30000, persistConsumerOffsetInterval=5000, unitMode=false, unitName=null, vipChannelEnabled=true, useTLS=false, language=JAVA], ClientVersion:V4_3_2, SerializerType:JSON
+2019-04-08 11:02:52,052 INFO RocketmqClient - Created new MQClientInstance for clientId:[192.168.1.60@8196]
+2019-04-08 11:02:52,052 INFO RocketmqClient - name server address changed, old=null, new=47.98.216.158:9876
+2019-04-08 11:02:52,052 INFO RocketmqRemoting - name server address updated. NEW : [47.98.216.158:9876] , OLD: null
+2019-04-08 11:02:52,052 INFO RocketmqClient - PullMessageService service started
+2019-04-08 11:02:52,052 INFO RocketmqClient - RebalanceService service started
+2019-04-08 11:02:52,052 INFO RocketmqClient - the producer [CLIENT_INNER_PRODUCER] start OK. sendMessageWithVIPChannel=true
+2019-04-08 11:02:52,052 INFO RocketmqClient - the client factory [192.168.1.60@8196] start OK
+2019-04-08 11:02:52,052 INFO RocketmqClient - the adminExt [sdkClientLbsDefault_INVOKE_ADMIN_EXT] start OK
+2019-04-08 11:02:52,052 INFO RocketmqRemoting - new name server is chosen. OLD: null , NEW: 47.98.216.158:9876. namesrvIndex = 743
+2019-04-08 11:02:52,052 DEBUG com.vtradex.ehub.plugins.io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: unpooled
+2019-04-08 11:02:52,052 DEBUG com.vtradex.ehub.plugins.io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 65536
+2019-04-08 11:02:52,052 DEBUG com.vtradex.ehub.plugins.io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2019-04-08 11:02:52,052 INFO RocketmqRemoting - createChannel: begin to connect remote host[47.98.216.158:9876] asynchronously
+2019-04-08 11:02:52,052 INFO RocketmqRemoting - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 47.98.216.158:9876
+2019-04-08 11:02:52,052 INFO RocketmqRemoting - createChannel: connect remote host[47.98.216.158:9876] success, DefaultChannelPromise@71f05e51(success)
+2019-04-08 11:02:52,052 DEBUG com.vtradex.ehub.plugins.io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: com.vtradex.ehub.plugins.io.netty.util.ResourceLeakDetector@2480bd99
+2019-04-08 11:02:52,052 INFO RocketmqClient - the topic[TBW102] route info changed, old[null] ,new[TopicRouteData [orderTopicConf=null, queueDatas=[QueueData [brokerName=broker-a, readQueueNums=8, writeQueueNums=8, perm=7, topicSynFlag=0]], brokerDatas=[BrokerData [brokerName=broker-a, brokerAddrs={0=47.98.216.158:10911}]], filterServerTable={}]]
+2019-04-08 11:02:52,052 INFO RocketmqClient - updateTopicPublishInfo prev is not null, TopicPublishInfo [orderTopic=false, messageQueueList=[], sendWhichQueue=ThreadLocalIndex{threadLocalIndex=null}, haveTopicRouterInfo=false]
+2019-04-08 11:02:52,052 INFO RocketmqClient - topicRouteTable.put. Topic = TBW102, TopicRouteData[TopicRouteData [orderTopicConf=null, queueDatas=[QueueData [brokerName=broker-a, readQueueNums=8, writeQueueNums=8, perm=7, topicSynFlag=0]], brokerDatas=[BrokerData [brokerName=broker-a, brokerAddrs={0=47.98.216.158:10911}]], filterServerTable={}]]
+2019-04-08 11:02:52,052 INFO RocketmqClient - the producer [PID_sdkClientLbsDefault] start OK. sendMessageWithVIPChannel=true
+2019-04-08 11:02:52,052 INFO RocketmqRemoting - createChannel: begin to connect remote host[47.98.216.158:10911] asynchronously
+2019-04-08 11:02:52,052 INFO RocketmqRemoting - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 47.98.216.158:10911
+2019-04-08 11:02:52,052 INFO RocketmqRemoting - createChannel: connect remote host[47.98.216.158:10911] success, DefaultChannelPromise@4d1b0d2a(success)
+2019-04-08 11:02:52,052 INFO RocketmqClient - send heart beat to broker[broker-a 0 47.98.216.158:10911] success
+2019-04-08 11:02:52,052 INFO RocketmqClient - HeartbeatData [clientID=192.168.1.60@8196, producerDataSet=[ProducerData [groupName=PID_sdkClientLbsDefault], ProducerData [groupName=CLIENT_INNER_PRODUCER]], consumerDataSet=[]]
+2019-04-08 11:03:22,022 INFO RocketmqClient - updateTopicPublishInfo prev is not null, TopicPublishInfo [orderTopic=false, messageQueueList=[MessageQueue [topic=TBW102, brokerName=broker-a, queueId=0], MessageQueue [topic=TBW102, brokerName=broker-a, queueId=1], MessageQueue [topic=TBW102, brokerName=broker-a, queueId=2], MessageQueue [topic=TBW102, brokerName=broker-a, queueId=3], MessageQueue [topic=TBW102, brokerName=broker-a, queueId=4], MessageQueue [topic=TBW102, brokerName=broker-a, queueId=5], MessageQueue [topic=TBW102, brokerName=broker-a, queueId=6], MessageQueue [topic=TBW102, brokerName=broker-a, queueId=7]], sendWhichQueue=ThreadLocalIndex{threadLocalIndex=null}, haveTopicRouterInfo=true]
+2019-04-08 11:03:22,022 INFO RocketmqClient - updateTopicPublishInfo prev is not null, TopicPublishInfo [orderTopic=false, messageQueueList=[], sendWhichQueue=ThreadLocalIndex{threadLocalIndex=null}, haveTopicRouterInfo=false]
+2019-04-08 11:03:22,022 INFO RocketmqClient - topicRouteTable.put. Topic = TBW102, TopicRouteData[TopicRouteData [orderTopicConf=null, queueDatas=[QueueData [brokerName=broker-a, readQueueNums=8, writeQueueNums=8, perm=7, topicSynFlag=0]], brokerDatas=[BrokerData [brokerName=broker-a, brokerAddrs={0=47.98.216.158:10911}]], filterServerTable={}]]
+2019-04-08 11:04:16,016 DEBUG com.vtradex.ehub.plugins.io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+2019-04-08 11:04:16,016 DEBUG com.vtradex.ehub.plugins.io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+2019-04-08 11:04:16,016 DEBUG com.vtradex.ehub.plugins.io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+2019-04-08 11:04:16,016 DEBUG com.vtradex.ehub.plugins.io.netty.util.internal.PlatformDependent0 - direct buffer constructor: available
+2019-04-08 11:04:16,016 DEBUG com.vtradex.ehub.plugins.io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+2019-04-08 11:04:16,016 DEBUG com.vtradex.ehub.plugins.io.netty.util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): available
+2019-04-08 11:04:16,016 DEBUG com.vtradex.ehub.plugins.io.netty.util.internal.Cleaner0 - java.nio.ByteBuffer.cleaner(): available
+2019-04-08 11:04:16,016 DEBUG com.vtradex.ehub.plugins.io.netty.util.internal.PlatformDependent - Platform: Windows
+2019-04-08 11:04:16,016 DEBUG com.vtradex.ehub.plugins.io.netty.util.internal.PlatformDependent - Java version: 8
+2019-04-08 11:04:16,016 DEBUG com.vtradex.ehub.plugins.io.netty.util.internal.PlatformDependent - -Dio.netty.noUnsafe: false
+2019-04-08 11:04:16,016 DEBUG com.vtradex.ehub.plugins.io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
+2019-04-08 11:04:16,016 DEBUG com.vtradex.ehub.plugins.io.netty.util.internal.PlatformDependent - -Dio.netty.noJavassist: false
+2019-04-08 11:04:16,016 DEBUG com.vtradex.ehub.plugins.io.netty.util.internal.PlatformDependent - Javassist: unavailable
+2019-04-08 11:04:16,016 DEBUG com.vtradex.ehub.plugins.io.netty.util.internal.PlatformDependent - You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+2019-04-08 11:04:16,016 DEBUG com.vtradex.ehub.plugins.io.netty.util.internal.PlatformDependent - -Dio.netty.tmpdir: C:\Users\LIU08D~1\AppData\Local\Temp (java.io.tmpdir)
+2019-04-08 11:04:16,016 DEBUG com.vtradex.ehub.plugins.io.netty.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2019-04-08 11:04:16,016 DEBUG com.vtradex.ehub.plugins.io.netty.util.internal.PlatformDependent - com.vtradex.ehub.plugins.io.netty.maxDirectMemory: 3791650816 bytes
+2019-04-08 11:04:16,016 DEBUG com.vtradex.ehub.plugins.io.netty.util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+2019-04-08 11:04:17,017 INFO com.vtradex.ehub.plugins.io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@2353b3e6
+2019-04-08 11:04:17,017 INFO RocketmqClient - Created a new client Instance, InstanceIndex:0, ClientID:192.168.1.60@17916, ClientConfig:ClientConfig [namesrvAddr=null, clientIP=192.168.1.60, instanceName=17916, clientCallbackExecutorThreads=8, pollNameServerInterval=30000, heartbeatBrokerInterval=30000, persistConsumerOffsetInterval=5000, unitMode=false, unitName=null, vipChannelEnabled=true, useTLS=false, language=JAVA], ClientVersion:V4_3_2, SerializerType:JSON
+2019-04-08 11:04:17,017 INFO RocketmqClient - Created new MQClientInstance for clientId:[192.168.1.60@17916]
+2019-04-08 11:04:17,017 INFO RocketmqClient - name server address changed, old=null, new=47.98.216.158:9876
+2019-04-08 11:04:17,017 INFO RocketmqRemoting - name server address updated. NEW : [47.98.216.158:9876] , OLD: null
+2019-04-08 11:04:17,017 INFO RocketmqClient - PullMessageService service started
+2019-04-08 11:04:17,017 INFO RocketmqClient - RebalanceService service started
+2019-04-08 11:04:17,017 INFO RocketmqClient - the producer [CLIENT_INNER_PRODUCER] start OK. sendMessageWithVIPChannel=true
+2019-04-08 11:04:17,017 INFO RocketmqClient - the client factory [192.168.1.60@17916] start OK
+2019-04-08 11:04:17,017 INFO RocketmqClient - the adminExt [sdkClientLbsDefault_INVOKE_ADMIN_EXT] start OK
+2019-04-08 11:04:17,017 INFO RocketmqRemoting - new name server is chosen. OLD: null , NEW: 47.98.216.158:9876. namesrvIndex = 2
+2019-04-08 11:04:17,017 DEBUG com.vtradex.ehub.plugins.io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: unpooled
+2019-04-08 11:04:17,017 DEBUG com.vtradex.ehub.plugins.io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 65536
+2019-04-08 11:04:17,017 DEBUG com.vtradex.ehub.plugins.io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2019-04-08 11:04:17,017 INFO RocketmqRemoting - createChannel: begin to connect remote host[47.98.216.158:9876] asynchronously
+2019-04-08 11:04:17,017 INFO RocketmqRemoting - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 47.98.216.158:9876
+2019-04-08 11:04:17,017 INFO RocketmqRemoting - createChannel: connect remote host[47.98.216.158:9876] success, DefaultChannelPromise@71f05e51(success)
+2019-04-08 11:04:17,017 DEBUG com.vtradex.ehub.plugins.io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: com.vtradex.ehub.plugins.io.netty.util.ResourceLeakDetector@58831f4c
+2019-04-08 11:04:17,017 INFO RocketmqClient - the topic[TBW102] route info changed, old[null] ,new[TopicRouteData [orderTopicConf=null, queueDatas=[QueueData [brokerName=broker-a, readQueueNums=8, writeQueueNums=8, perm=7, topicSynFlag=0]], brokerDatas=[BrokerData [brokerName=broker-a, brokerAddrs={0=47.98.216.158:10911}]], filterServerTable={}]]
+2019-04-08 11:04:17,017 INFO RocketmqClient - updateTopicPublishInfo prev is not null, TopicPublishInfo [orderTopic=false, messageQueueList=[], sendWhichQueue=ThreadLocalIndex{threadLocalIndex=null}, haveTopicRouterInfo=false]
+2019-04-08 11:04:17,017 INFO RocketmqClient - topicRouteTable.put. Topic = TBW102, TopicRouteData[TopicRouteData [orderTopicConf=null, queueDatas=[QueueData [brokerName=broker-a, readQueueNums=8, writeQueueNums=8, perm=7, topicSynFlag=0]], brokerDatas=[BrokerData [brokerName=broker-a, brokerAddrs={0=47.98.216.158:10911}]], filterServerTable={}]]
+2019-04-08 11:04:17,017 INFO RocketmqClient - the producer [PID_sdkClientLbsDefault] start OK. sendMessageWithVIPChannel=true
+2019-04-08 11:04:17,017 INFO RocketmqRemoting - createChannel: begin to connect remote host[47.98.216.158:10911] asynchronously
+2019-04-08 11:04:17,017 INFO RocketmqRemoting - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 47.98.216.158:10911
+2019-04-08 11:04:17,017 INFO RocketmqRemoting - createChannel: connect remote host[47.98.216.158:10911] success, DefaultChannelPromise@4d1b0d2a(success)
+2019-04-08 11:04:17,017 INFO RocketmqClient - send heart beat to broker[broker-a 0 47.98.216.158:10911] success
+2019-04-08 11:04:17,017 INFO RocketmqClient - HeartbeatData [clientID=192.168.1.60@17916, producerDataSet=[ProducerData [groupName=PID_sdkClientLbsDefault], ProducerData [groupName=CLIENT_INNER_PRODUCER]], consumerDataSet=[]]
+2019-04-08 11:04:47,047 INFO RocketmqClient - updateTopicPublishInfo prev is not null, TopicPublishInfo [orderTopic=false, messageQueueList=[MessageQueue [topic=TBW102, brokerName=broker-a, queueId=0], MessageQueue [topic=TBW102, brokerName=broker-a, queueId=1], MessageQueue [topic=TBW102, brokerName=broker-a, queueId=2], MessageQueue [topic=TBW102, brokerName=broker-a, queueId=3], MessageQueue [topic=TBW102, brokerName=broker-a, queueId=4], MessageQueue [topic=TBW102, brokerName=broker-a, queueId=5], MessageQueue [topic=TBW102, brokerName=broker-a, queueId=6], MessageQueue [topic=TBW102, brokerName=broker-a, queueId=7]], sendWhichQueue=ThreadLocalIndex{threadLocalIndex=null}, haveTopicRouterInfo=true]
+2019-04-08 11:04:47,047 INFO RocketmqClient - updateTopicPublishInfo prev is not null, TopicPublishInfo [orderTopic=false, messageQueueList=[], sendWhichQueue=ThreadLocalIndex{threadLocalIndex=null}, haveTopicRouterInfo=false]
+2019-04-08 11:04:47,047 INFO RocketmqClient - topicRouteTable.put. Topic = TBW102, TopicRouteData[TopicRouteData [orderTopicConf=null, queueDatas=[QueueData [brokerName=broker-a, readQueueNums=8, writeQueueNums=8, perm=7, topicSynFlag=0]], brokerDatas=[BrokerData [brokerName=broker-a, brokerAddrs={0=47.98.216.158:10911}]], filterServerTable={}]]
+2019-04-08 11:05:18,018 DEBUG com.vtradex.ehub.plugins.io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+2019-04-08 11:05:18,018 DEBUG com.vtradex.ehub.plugins.io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+2019-04-08 11:05:18,018 DEBUG com.vtradex.ehub.plugins.io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+2019-04-08 11:05:18,018 DEBUG com.vtradex.ehub.plugins.io.netty.util.internal.PlatformDependent0 - direct buffer constructor: available
+2019-04-08 11:05:18,018 DEBUG com.vtradex.ehub.plugins.io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+2019-04-08 11:05:18,018 DEBUG com.vtradex.ehub.plugins.io.netty.util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): available
+2019-04-08 11:05:18,018 DEBUG com.vtradex.ehub.plugins.io.netty.util.internal.Cleaner0 - java.nio.ByteBuffer.cleaner(): available
+2019-04-08 11:05:18,018 DEBUG com.vtradex.ehub.plugins.io.netty.util.internal.PlatformDependent - Platform: Windows
+2019-04-08 11:05:18,018 DEBUG com.vtradex.ehub.plugins.io.netty.util.internal.PlatformDependent - Java version: 8
+2019-04-08 11:05:18,018 DEBUG com.vtradex.ehub.plugins.io.netty.util.internal.PlatformDependent - -Dio.netty.noUnsafe: false
+2019-04-08 11:05:18,018 DEBUG com.vtradex.ehub.plugins.io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
+2019-04-08 11:05:18,018 DEBUG com.vtradex.ehub.plugins.io.netty.util.internal.PlatformDependent - -Dio.netty.noJavassist: false
+2019-04-08 11:05:18,018 DEBUG com.vtradex.ehub.plugins.io.netty.util.internal.PlatformDependent - Javassist: unavailable
+2019-04-08 11:05:18,018 DEBUG com.vtradex.ehub.plugins.io.netty.util.internal.PlatformDependent - You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+2019-04-08 11:05:18,018 DEBUG com.vtradex.ehub.plugins.io.netty.util.internal.PlatformDependent - -Dio.netty.tmpdir: C:\Users\LIU08D~1\AppData\Local\Temp (java.io.tmpdir)
+2019-04-08 11:05:18,018 DEBUG com.vtradex.ehub.plugins.io.netty.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2019-04-08 11:05:18,018 DEBUG com.vtradex.ehub.plugins.io.netty.util.internal.PlatformDependent - com.vtradex.ehub.plugins.io.netty.maxDirectMemory: 3791650816 bytes
+2019-04-08 11:05:18,018 DEBUG com.vtradex.ehub.plugins.io.netty.util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+2019-04-08 11:05:18,018 INFO com.vtradex.ehub.plugins.io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@2353b3e6
+2019-04-08 11:05:18,018 INFO RocketmqClient - Created a new client Instance, InstanceIndex:0, ClientID:192.168.1.60@20152, ClientConfig:ClientConfig [namesrvAddr=null, clientIP=192.168.1.60, instanceName=20152, clientCallbackExecutorThreads=8, pollNameServerInterval=30000, heartbeatBrokerInterval=30000, persistConsumerOffsetInterval=5000, unitMode=false, unitName=null, vipChannelEnabled=true, useTLS=false, language=JAVA], ClientVersion:V4_3_2, SerializerType:JSON
+2019-04-08 11:05:18,018 INFO RocketmqClient - Created new MQClientInstance for clientId:[192.168.1.60@20152]
+2019-04-08 11:05:18,018 INFO RocketmqClient - name server address changed, old=null, new=47.98.216.158:9876
+2019-04-08 11:05:18,018 INFO RocketmqRemoting - name server address updated. NEW : [47.98.216.158:9876] , OLD: null
+2019-04-08 11:05:18,018 INFO RocketmqClient - RebalanceService service started
+2019-04-08 11:05:18,018 INFO RocketmqClient - PullMessageService service started
+2019-04-08 11:05:18,018 INFO RocketmqClient - the producer [CLIENT_INNER_PRODUCER] start OK. sendMessageWithVIPChannel=true
+2019-04-08 11:05:18,018 INFO RocketmqClient - the client factory [192.168.1.60@20152] start OK
+2019-04-08 11:05:18,018 INFO RocketmqClient - the adminExt [sdkClientLbsDefault_INVOKE_ADMIN_EXT] start OK
+2019-04-08 11:05:18,018 INFO RocketmqRemoting - new name server is chosen. OLD: null , NEW: 47.98.216.158:9876. namesrvIndex = 492
+2019-04-08 11:05:18,018 DEBUG com.vtradex.ehub.plugins.io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: unpooled
+2019-04-08 11:05:18,018 DEBUG com.vtradex.ehub.plugins.io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 65536
+2019-04-08 11:05:18,018 DEBUG com.vtradex.ehub.plugins.io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2019-04-08 11:05:18,018 INFO RocketmqRemoting - createChannel: begin to connect remote host[47.98.216.158:9876] asynchronously
+2019-04-08 11:05:18,018 INFO RocketmqRemoting - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 47.98.216.158:9876
+2019-04-08 11:05:18,018 INFO RocketmqRemoting - createChannel: connect remote host[47.98.216.158:9876] success, DefaultChannelPromise@2dad9c23(success)
+2019-04-08 11:05:18,018 DEBUG com.vtradex.ehub.plugins.io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: com.vtradex.ehub.plugins.io.netty.util.ResourceLeakDetector@58831f4c
+2019-04-08 11:05:18,018 INFO RocketmqClient - the topic[TBW102] route info changed, old[null] ,new[TopicRouteData [orderTopicConf=null, queueDatas=[QueueData [brokerName=broker-a, readQueueNums=8, writeQueueNums=8, perm=7, topicSynFlag=0]], brokerDatas=[BrokerData [brokerName=broker-a, brokerAddrs={0=47.98.216.158:10911}]], filterServerTable={}]]
+2019-04-08 11:05:18,018 INFO RocketmqClient - updateTopicPublishInfo prev is not null, TopicPublishInfo [orderTopic=false, messageQueueList=[], sendWhichQueue=ThreadLocalIndex{threadLocalIndex=null}, haveTopicRouterInfo=false]
+2019-04-08 11:05:18,018 INFO RocketmqClient - topicRouteTable.put. Topic = TBW102, TopicRouteData[TopicRouteData [orderTopicConf=null, queueDatas=[QueueData [brokerName=broker-a, readQueueNums=8, writeQueueNums=8, perm=7, topicSynFlag=0]], brokerDatas=[BrokerData [brokerName=broker-a, brokerAddrs={0=47.98.216.158:10911}]], filterServerTable={}]]
+2019-04-08 11:05:18,018 INFO RocketmqClient - the producer [PID_sdkClientLbsDefault] start OK. sendMessageWithVIPChannel=true
+2019-04-08 11:05:19,019 INFO RocketmqRemoting - createChannel: begin to connect remote host[47.98.216.158:10911] asynchronously
+2019-04-08 11:05:19,019 INFO RocketmqRemoting - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 47.98.216.158:10911
+2019-04-08 11:05:19,019 INFO RocketmqRemoting - createChannel: connect remote host[47.98.216.158:10911] success, DefaultChannelPromise@4d1b0d2a(success)
+2019-04-08 11:05:19,019 INFO RocketmqClient - send heart beat to broker[broker-a 0 47.98.216.158:10911] success
+2019-04-08 11:05:19,019 INFO RocketmqClient - HeartbeatData [clientID=192.168.1.60@20152, producerDataSet=[ProducerData [groupName=PID_sdkClientLbsDefault], ProducerData [groupName=CLIENT_INNER_PRODUCER]], consumerDataSet=[]]
+2019-04-08 11:05:51,051 WARN RocketmqRemoting - invokeSync: wait response timeout exception, the channel[null]
+2019-04-08 11:06:10,010 WARN RocketmqRemoting - NETTY CLIENT PIPELINE: exceptionCaught 47.98.216.158:9876
+2019-04-08 11:06:10,010 WARN RocketmqRemoting - NETTY CLIENT PIPELINE: exceptionCaught exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at com.vtradex.ehub.plugins.io.netty.buffer.UnpooledUnsafeDirectByteBuf.setBytes(UnpooledUnsafeDirectByteBuf.java:362)
+	at com.vtradex.ehub.plugins.io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:899)
+	at com.vtradex.ehub.plugins.io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:275)
+	at com.vtradex.ehub.plugins.io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:119)
+	at com.vtradex.ehub.plugins.io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:652)
+	at com.vtradex.ehub.plugins.io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:575)
+	at com.vtradex.ehub.plugins.io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:489)
+	at com.vtradex.ehub.plugins.io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:451)
+	at com.vtradex.ehub.plugins.io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)
+	at java.lang.Thread.run(Thread.java:748)
+
+2019-04-08 11:06:10,010 INFO RocketmqRemoting - closeChannel: the channel[47.98.216.158:9876] was removed from channel table
+2019-04-08 11:06:10,010 INFO RocketmqRemoting - NETTY CLIENT PIPELINE: CLOSE 47.98.216.158:9876
+2019-04-08 11:06:10,010 INFO RocketmqRemoting - eventCloseChannel: the channel[null] has been removed from the channel table before
+2019-04-08 11:06:18,018 INFO RocketmqRemoting - new name server is chosen. OLD: 47.98.216.158:9876 , NEW: 47.98.216.158:9876. namesrvIndex = 493
+2019-04-08 11:06:18,018 INFO RocketmqRemoting - createChannel: begin to connect remote host[47.98.216.158:9876] asynchronously
+2019-04-08 11:06:18,018 INFO RocketmqRemoting - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 47.98.216.158:9876
+2019-04-08 11:06:18,018 INFO RocketmqRemoting - createChannel: connect remote host[47.98.216.158:9876] success, DefaultChannelPromise@618f84b2(success)
+2019-04-08 11:06:18,018 INFO RocketmqClient - updateTopicPublishInfo prev is not null, TopicPublishInfo [orderTopic=false, messageQueueList=[MessageQueue [topic=TBW102, brokerName=broker-a, queueId=0], MessageQueue [topic=TBW102, brokerName=broker-a, queueId=1], MessageQueue [topic=TBW102, brokerName=broker-a, queueId=2], MessageQueue [topic=TBW102, brokerName=broker-a, queueId=3], MessageQueue [topic=TBW102, brokerName=broker-a, queueId=4], MessageQueue [topic=TBW102, brokerName=broker-a, queueId=5], MessageQueue [topic=TBW102, brokerName=broker-a, queueId=6], MessageQueue [topic=TBW102, brokerName=broker-a, queueId=7]], sendWhichQueue=ThreadLocalIndex{threadLocalIndex=null}, haveTopicRouterInfo=true]
+2019-04-08 11:06:18,018 INFO RocketmqClient - updateTopicPublishInfo prev is not null, TopicPublishInfo [orderTopic=false, messageQueueList=[], sendWhichQueue=ThreadLocalIndex{threadLocalIndex=null}, haveTopicRouterInfo=false]
+2019-04-08 11:06:18,018 INFO RocketmqClient - topicRouteTable.put. Topic = TBW102, TopicRouteData[TopicRouteData [orderTopicConf=null, queueDatas=[QueueData [brokerName=broker-a, readQueueNums=8, writeQueueNums=8, perm=7, topicSynFlag=0]], brokerDatas=[BrokerData [brokerName=broker-a, brokerAddrs={0=47.98.216.158:10911}]], filterServerTable={}]]
