@@ -29,7 +29,7 @@ public class Jtt809NettyServer {
 	public Jtt809NettyServer(int port) {
 		this.port=port;
 	}
-	//主链路的端口
+	//主链路的端口,测试
 	private int port;
 	/**
 	 * 对应的从链路,key为msgGesscenterId
