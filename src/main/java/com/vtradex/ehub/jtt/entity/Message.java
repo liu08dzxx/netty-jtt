@@ -73,6 +73,9 @@ public class Message implements Serializable {
 		case JT809Constants.DOWN_TOTAL_RECV_BACK_MSG:
 			msgLength = 46L;
 			break;
+		case JT809Constants.DOWN_CONNECT_REQ:
+			msgLength = 4L;
+			break;
 		default:
 			throw new RuntimeException("还没有配置指定报文类型的数据长度");
 		}
